@@ -1,7 +1,7 @@
 devicefactory.github.io
 =======================
 
-Welcome to Device Factory github landing page!
+Welcome to DeviceFactory github landing page!
 
-* [DF Move](http://devicefactory.github.io/df_move_fw/)
+* [DF Move](http://devicefactory.github.io/df_move3_iosdemo1)
 * DF Find
