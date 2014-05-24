@@ -1,7 +1,6 @@
-devicefactory.github.io
+DEVICEFACTORY.GITHUB.IO
 =======================
+**About:** This repository is for DeviceFactory web based presentaions.  All presentaions are contained in html files, any other files and directories are code and config to present the html.  To see the live presentaions please go to [devicefactory.gitgub.io](http://devicefactory.github.io)
 
-Welcome to DeviceFactory github landing page!
-
-* [DF MOVE3 Demo](http://github.com/devicefactory/df_move3_iosdemo1)
-* DF Find
+* index.html - The main index
+* df-overview.html
