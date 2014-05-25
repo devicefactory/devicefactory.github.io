@@ -6,3 +6,9 @@ DEVICEFACTORY.GITHUB.IO
 **Contents:**
 * index.html - The main index
 * df-overview.html
+
+Notes
+=====
+
+* Check this [link](https://help.github.com/articles/github-flavored-markdown) for tips on markdown
+* And this [git submodule](http://brendancleary.com/2013/03/08/including-a-github-wiki-in-a-repository-as-a-submodule/) for integrating wiki
