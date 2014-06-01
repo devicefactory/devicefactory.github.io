@@ -40,69 +40,73 @@
 <body>
 
 <div class="reveal">
-	<!-- Any section element inside of this container is displayed as a slide -->
+
+<!-- Any section element inside of this container is displayed as a slide -->
 <div class="slides">
+
 <section data-background='images/header_bg.png'>
     <a href="index.html"><img src="images/devicefactory-logo.png" border="0"></a>
 </section>
         
+
 <section>
   <section>
-	<h1>Device Factory</h1>
-	<!-- <h3>Overview</h3> -->
-	<p>
+	  <h1>Device Factory</h1>
+	  <p>
 		<small>Created by <a href="http://devicefactory.com">DeviceFactory Team</a> </small>
-	</p>
+	  </p>
   </section>
 
   <section>
-  <h2>So What is Device Factory?</h2>
-  <ul>
+    <h2>So What is Device Factory?</h2>
+    <ul>
       <li>It is a virtual company : there is no physical "factory"
       <li>We coordinate online, often working in cafes and bars
       <li>And we make cool devices with open source
       <li>We make emphasis on working with like-minded people passionate about technology
-  </ul>
+    </ul>
   </section>
 
   <section> 
-  <h2>How Did We Start?</h2>
-  <table border=0><tr><td>
-  <ul>
+    <h2>How Did We Start?</h2>
+    <table border=0><tr><td>
+    <ul>
       <li>JB’s geeky hobby
       <li>Then the idea to create a Baby Monitor
       <li>But consumer products require full-time effort 
       <li>We have day jobs and would not want to have angry customers
       <li>So we focused on what we enjoy doing, and engage technical people
-  </ul>
-  <td><td>
-  <img width=450 height=250 src="images/pres/sch1.png">
-  </td></tr></table>
+    </ul>
+    <td><td>
+    <img width=450 height=250 src="images/pres/sch1.png">
+    </td></tr></table>
   </section>
 
   <section>
-  <h2>What Do We Make?</h2>
-  <ul>
+    <h2>What Do We Make?</h2>
+    <ul>
       <li>There are no consumer products, consumers don't care about technology
       <li>We make platforms that can be adapted to a variety of use cases
       <li>But we do sell devices to other techies as cheap as possible
       <li>The code is there so they can be hacked into you own ideas
-  </ul>
-	<aside class="notes">
-		Oh hey, these are some notes. They'll be hidden in your presentation,
-    but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-	</aside>
+    </ul>
+	  <aside class="notes">
+	  	Oh hey, these are some notes. They'll be hidden in your presentation,
+      but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+	  </aside>
   </section> 
 
 </section>
 
-<!-- Example of nested vertical slides -->
+
 <section>
 	<section>
-		<h1>The Industry</h1>
+		<h1>Making Of ...</h1>
 		<p>
-    <small>What is the current landscape for small electronic devices?</small>
+    <small>What is the current landscape for producing small electronic devices?</small>
     <aside class="notes"> 
+    What is it like to create a device like DF1?
+
     <ul>
       <li>Smart phones, now smart devices
       <li>Internet of things (IOT)
@@ -114,33 +118,89 @@
 	</section>
 
 	<section>
-		<h2>Sensors</h2>
+		<h2>Electronics Design</h2>
+    <ul>
+      <li>Circuit design : lots of reference designs
+      <li>PCB layout : open source tools
+      <li>Prototyping, PCB fab
+    </ul>
+	</section>
+
+	<section>
+		<h2>Understanding the Sensors</h2>
     <ul>
       <li>MEMS : windows to the physical world
       <li>Motion, temperature, humidity, light, and many more!
-      <li>What else can we sense?
+      <li>So many choices, quite overwhelming.
     </ul>
 	</section>
 
 	<section>
-		<h2>Wireless</h2>
+		<h2>How to Wireless?</h2>
     <ul>
-		  <li class="fragment"><code>Short range, low power</code></li>
+		  <li class="fragment"><code>Low power</code></li>
+		  <li class="fragment"><code>Optimizing range</code></li>
 		  <li class="fragment"><em>Battery life</em></li>
-		  <li class="fragment roll-in"><strong>Certification</strong></li>
+		  <li class="fragment roll-in">Custom implementation means required certification</li>
     </ul>
 	</section>
 
 	<section>
-		<h2>Production</h2>
+		<h2>CAD Design</h2>
     <ul>
-		  <li class="fragment">Rapid prototyping, cheaper</li>
-		  <li class="fragment">Certification process still somewhat expensive</li>
-		  <li class="fragment">Manufacturing is not as costly any more</li>
-		  <li class="fragment roll-in">Gap between prototype to consumer becoming narrow</li>
+		  <li>Precision enclosures can't be 3D printed
+		  <li>3D printing good to get an "idea", but rarely good for finished product
+		  <li>Molding cost is prohibitive
+		  <li>Lots of pitfalls and gotchas
+    </ul>
+	</section>
+
+	<section>
+		<h2>Manufacturing</h2>
+    <ul>
+		  <li>Need to have good documentation
+		  <li>Communication is the key!
+		  <li>Mess-ups WILL happen
+		  <li>Maintaining good relationships will help in the long-run.
     </ul>
 	</section>
 </section>
+
+
+<section>
+  <section>
+	  <h1>Our First Device</h1>
+	  <p>
+		  <small>Brief introduction of DF1</small>
+	  </p>
+  </section>
+
+  <section>
+    <h2>Fully Baked</h2>
+    <p>Not just bare electronics. 
+    <img src="" alt="insert image here">
+  </section>
+
+  <section>
+    <h2>Capabilities</h2>
+    <ul>
+		  <li>Streaming data, event subscriptions
+		  <li>150-200ft wireless range
+		  <li>Tunable accelerometer parameters
+		  <li>Upgradable firmware
+    </ul>
+  </section>
+
+  <section>
+    <h2>Interfaces</h2>
+    <ul>
+		  <li>iOS opensource library
+		  <li>node.js opensource library : based on <a href="https://github.com/sandeepmistry/noble">noble</a>
+    </ul>
+  </section>
+
+</section>
+
 
 
 <section>
@@ -174,6 +234,8 @@
 
 </section>
 
+
+<!--
 <section>
   <section>
     <h1>The Vision</h1>
@@ -190,7 +252,6 @@
 
   <section>
     <h2>Listening to World Around Us</h2>
-
   </section>
 
   <section>
@@ -207,6 +268,7 @@
     </ul>
   </section>
 </section>
+-->
 
 
 </div>
